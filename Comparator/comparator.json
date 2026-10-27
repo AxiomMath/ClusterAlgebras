@@ -1,0 +1,22 @@
+{
+    "challenge_module": "Challenge.Basic",
+    "solution_module": "Solution.Basic",
+    "theorem_names": [
+        "ClusterAlgebras.Challenge.lem_adjmatrix",
+        "ClusterAlgebras.Challenge.thm_det_invariant",
+        "ClusterAlgebras.Challenge.thm_rank_invariant",
+        "ClusterAlgebras.Challenge.lem_gcd_invariant",
+        "ClusterAlgebras.Challenge.lem_skew_symmetrizing_vector_unique",
+        "ClusterAlgebras.Challenge.lem_markov_self_similar",
+        "ClusterAlgebras.Challenge.lem_wiring_quiver_is_quiver",
+        "ClusterAlgebras.Challenge.prop_braid_is_mutation",
+        "ClusterAlgebras.Challenge.lem_double_chamber_count",
+        "ClusterAlgebras.Challenge.prop_trees_inequivalent"
+    ],
+    "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+    ],
+    "enable_nanoda": true
+}

@@ -1,0 +1,29 @@
+name = "ClusterAlgebras"
+defaultTargets = ["ClusterAlgebras"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+relaxedAutoImplicit = false
+maxSynthPendingDepth = 3
+
+# Mathlib's standard linter set.
+weak.linter.mathlibStandardSet = true
+
+# Mathlib's own `v4.31.0` release, matching `lean-toolchain`.
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f"
+
+[[lean_lib]]
+name = "ClusterAlgebras"
+
+# The comparator pair. Deliberately NOT in defaultTargets: `Challenge` carries a
+# permanent `sorry` (its statements are the artifact), and `lake lint` derives its
+# scope from the default targets. The comparator builds both modules itself.
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"
