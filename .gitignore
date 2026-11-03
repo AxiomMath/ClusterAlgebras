@@ -1,0 +1,6 @@
+/.lake
+_axc_ax_*.lean
+__pycache__/
+*.pyc
+_site/
+/.axiomcode/

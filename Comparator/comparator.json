@@ -1,0 +1,23 @@
+{
+    "challenge_module": "Challenge.Basic",
+    "solution_module": "Solution.Basic",
+    "theorem_names": [
+        "ClusterAlgebras.Challenge.extExchangeMatrix_mutate_eq_matrixMutation",
+        "ClusterAlgebras.Challenge.det_matrixMutation_eq",
+        "ClusterAlgebras.Challenge.rank_matrixMutation_eq",
+        "ClusterAlgebras.Challenge.gcd_matrixMutation_eq_of_involutive",
+        "ClusterAlgebras.Challenge.div_eq_div_of_isSkewSymmetrizingVector",
+        "ClusterAlgebras.Challenge.nonempty_iso_markovQuiver_mutate",
+        "ClusterAlgebras.Challenge.isArrowSystem_and_twoCycleFree_wiringArrows",
+        "ClusterAlgebras.Challenge.existsUnique_iso_mutate_of_braidMove",
+        "ClusterAlgebras.Challenge.card_chamber_and_card_bounded",
+        "ClusterAlgebras.Challenge.exists_isTreeOrientation_of_mutationEquivalent",
+        "ClusterAlgebras.Challenge.isFiniteType_iff_exists_isCartanFiniteType"
+    ],
+    "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+    ],
+    "enable_nanoda": true
+}
